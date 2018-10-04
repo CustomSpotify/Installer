@@ -1,0 +1,16 @@
+{
+  "name": "@customspotify/installer",
+  "version": "1.0.0-rc.1",
+  "description": "Install CustomSpotify",
+  "main": "src/index.js",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "@octokit/rest": "^15.12.1",
+    "fs-extra": "^7.0.0",
+    "node-fetch": "^2.2.0",
+    "unzip": "^0.1.11"
+  }
+}
